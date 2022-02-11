@@ -1,0 +1,27 @@
+{
+    "name": "bgastaldi/eot-php",
+    "description": "Adapter PHP by eot.ai",
+    "homepage": "https://github.com/bgastaldi/eot-php",
+    "keywords": [
+        "php",
+        "rest client",
+        "eot"
+    ],
+    "authors": [
+        {
+            "name": "bgastaldi"
+        }
+    ],
+    "license": "Apache-2.0",
+    "type": "libr",
+    "require": {
+        "php": ">=7.3",
+        "squizlabs/php_codesniffer": "3.6.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "EOT\\": "src/"
+        }
+    }
+}
